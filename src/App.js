@@ -15,7 +15,7 @@ function App() {
         <div className='mesa'>
         <div className='left-side'>
           <div className='header'>
-            <h1 className='title'>Instant Faro</h1>
+            <h1 className='title'>Instante Faro</h1>
             <p className='version'>v1.0</p>
           </div>
           <div className='actions'>

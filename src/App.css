@@ -15,6 +15,12 @@
   --clr-github: #333333;
 }
 
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .loader {
   background-color: var(--clr-dark-gray);
   height: 100vh;
@@ -310,22 +316,8 @@
 ******************************************/
 
 /* Tablets */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
-      font-size: 110%;
-  }
-}
-
-/* Small Monitors */
-@media screen and (min-width: 768px) {
-  .container {
-      font-size: 120%;
-  }
-}
-
-/* Large Monitors */
-@media screen and (min-width: 768px) {
-  .container {
-      font-size: 130%;
+      color: red;
   }
 }
