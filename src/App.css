@@ -69,6 +69,7 @@
 }
 
 .mesa {
+  /*border: 1px solid red;*/
   margin-top: -450px;
   height: 400px;
   /*width: 800px;*/
@@ -123,6 +124,7 @@
 
 .button {
   background-color: var(--clr-background);
+  color: var(--clr-font);
   height: 45px;
   width: 45px;
   border-radius: 2px;
@@ -143,6 +145,7 @@
 
 .active {
   background-color: var(--clr-active);
+  color: var(--clr-font);
   height: 45px;
   width: 45px;
   border-radius: 2px;
@@ -158,6 +161,7 @@
 
 .label {
   background-color: var(--clr-background);
+  color: var(--clr-font);
   height: 20px;
   width: 60px;
   border-radius: 2px;
@@ -229,6 +233,7 @@
 
 .stop, .play {
   background-color: var(--clr-background);
+  color: var(--clr-font);
   height: 45px;
   width: 80px;
   border-radius: 2px;
@@ -270,6 +275,7 @@
 
 .twitter, .whatsapp, .github {
   background-color: var(--clr-background);
+  color: var(--clr-font);
   height: 45px;
   width: 45px;
   border-radius: 2px;
@@ -306,6 +312,7 @@
   position: absolute;
   bottom: 10px;
 }
+
 .footer a {
   font-weight: 500;
   text-decoration: none;
@@ -315,9 +322,105 @@
   Media queries
 ******************************************/
 
-/* Tablets */
-@media screen and (max-width: 768px) {
-  .container {
-      color: red;
+/* Smartphones */
+@media screen and (max-width: 400px) {
+  .background {
+    position: relative;
+    left: 0px;
   }
+  .mesa-bg {
+    position: relative;
+    left: 0px;
+  }
+  .mesa-bg img {
+    width: 100vw;
+  }
+  .mesa {
+    height: 200px;
+    width: 380px;
+    margin: -215px 20px 0 20px;
+    z-index: 5;
+  }
+  .left-side {
+    width: 60%;
+  }
+  .header {
+    line-height: 24px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .version {
+    font-size: 10px;
+    margin-left: 2px;
+  }
+  .actions {
+    height: 130px;
+    margin-top: 8px;
+  }
+  .row {
+    margin-bottom: 4px;
+  }
+  .button {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .label {
+    height: 10px;
+    width: 30px;
+    margin: 0px 2px;
+    font-size: 4.5px;
+    margin-bottom: 5px;
+  }
+  .line {
+    margin-top: 20px;
+  }
+  .right-side {
+    width: 40%;
+  }
+  .screen {
+    font-size: 6px;
+    line-height: 6px;
+    height: 40px;
+    width: 100px;
+    padding: 8px;
+    border-radius: 8px;
+    justify-content: space-around;
+  }
+  .song {
+    width: 80px;
+  }
+  .options {
+    margin-top: 20px;
+    height: 20px;
+  }
+  .stop, .play {
+    height: 25px;
+    width: 40px;
+    margin: 0 4px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .rec {
+    height: 25px;
+    width: 25px;
+    margin: 0 4px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .twitter, .whatsapp, .github {
+    height: 25px;
+    width: 25px;
+    margin: 5px 4px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 10px;
+  }
+
 }
