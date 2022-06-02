@@ -15,9 +15,44 @@
   --clr-github: #333333;
 }
 
+.loader {
+  background-color: var(--clr-dark-gray);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  height: 50px;
+  width: 50px;
+  border: 10px solid var(--clr-background);
+  border-top-color: var(--clr-primary);
+  border-radius: 50%;
+  animation: loading 1s ease infinite;
+}
+
+@keyframes loading {
+  from { transform: rotate(0turn);}
+  to { transform: rotate(1turn);}
+}
+
 .background {
   background-color: var(--clr-background);
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -268,4 +303,29 @@
 .footer a {
   font-weight: 500;
   text-decoration: none;
+}
+
+/******************************************
+  Media queries
+******************************************/
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+  .container {
+      font-size: 110%;
+  }
+}
+
+/* Small Monitors */
+@media screen and (min-width: 768px) {
+  .container {
+      font-size: 120%;
+  }
+}
+
+/* Large Monitors */
+@media screen and (min-width: 768px) {
+  .container {
+      font-size: 130%;
+  }
 }

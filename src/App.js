@@ -3,12 +3,16 @@ import mesa from './img/mesa.png';
 
 function App() {
   return (
-    <div className='background'>
-      <div className='mesa-bg'>
-        <img src={mesa} alt="Instant Faro Mesa" />
-      </div>
+    <div className='container'>
+      
+      <div className='loader'></div>
 
-      <div className='mesa'>
+      <div className='background'>
+        <div className='mesa-bg'>
+          <img src={mesa} alt="Instant Faro Mesa" />
+        </div>
+
+        <div className='mesa'>
         <div className='left-side'>
           <div className='header'>
             <h1 className='title'>Instant Faro</h1>
@@ -198,11 +202,13 @@ function App() {
           </div>
         </div>
 
-      </div>
+        </div>
       
-      <div className='footer'>
-        <p>Developed by <a href='https://twitter.com/ldequadra'>Luiz de Quadra</a> inspired by <a href='https://leodlabs.github.io/instant-ratinho/'>Instant Ratinho</a></p>
+        <div className='footer'>
+          <p>Developed by <a href='https://twitter.com/ldequadra'>Luiz de Quadra</a> inspired by <a href='https://leodlabs.github.io/instant-ratinho/'>Instant Ratinho</a></p>
+        </div>
       </div>
+
     </div>
   );
 }
