@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/instant-faro/static/css/main.f2c435e7.css",
-    "main.js": "/instant-faro/static/js/main.7d0116aa.js",
+    "main.css": "/instant-faro/static/css/main.513abf7f.css",
+    "main.js": "/instant-faro/static/js/main.917a66c0.js",
     "static/media/mesa.png": "/instant-faro/static/media/mesa.e6c69f1db20de809faca.png",
     "index.html": "/instant-faro/index.html",
-    "main.f2c435e7.css.map": "/instant-faro/static/css/main.f2c435e7.css.map",
-    "main.7d0116aa.js.map": "/instant-faro/static/js/main.7d0116aa.js.map"
+    "main.513abf7f.css.map": "/instant-faro/static/css/main.513abf7f.css.map",
+    "main.917a66c0.js.map": "/instant-faro/static/js/main.917a66c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2c435e7.css",
-    "static/js/main.7d0116aa.js"
+    "static/css/main.513abf7f.css",
+    "static/js/main.917a66c0.js"
   ]
 }
