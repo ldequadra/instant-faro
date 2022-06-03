@@ -1,71 +1,58 @@
-# Getting Started with Create React App
+# Instant Faro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Soundboard com efeitos sonoros do programa do Rodrigo Faro.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Licença
 
-### `npm start`
+[![MIT License](https://img.shields.io/github/license/ldequadra/instant-faro?color=%23002555)](https://github.com/ldequadra/instant-faro/blob/main/LICENSE)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Créditos
 
-### `npm test`
+Esse projeto foi inspirado em [Instant Ratinho](https://leodlabs.github.io/instant-ratinho/) e não visa qualquer lucro.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Contribuições
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contribuições são bem vindas! Fique a vontade pra mandar algum comentário, sugestão ou crítica por aqui ou pelo twitter [@ldequadra](https://twitter.com/ldequadra).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Se tiver alguma dúvida, dá uma conferida no [código de conduta](https://github.com/ldequadra/instant-faro/blob/main/CODE_OF_CONDUCT.md).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Esquema de cores
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Caso você queira usar as mesmas cores pra algum outro projeto.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Cor          | Hex                                                              |
+| ------------ | ---------------------------------------------------------------- |
+| Primary      | ![#002555](https://via.placeholder.com/15/002555?text=+) #002555 |
+| Secondary    | ![#C0392B](https://via.placeholder.com/15/C0392B?text=+) #C0392B |
+| Screen Text  | ![#F1C40F](https://via.placeholder.com/15/F1C40F?text=+) #F1C40F |
+| Dark Gray    | ![#BABCC2](https://via.placeholder.com/15/BABCC2?text=+) #BABCC2 |
+| Light Gray   | ![#CDCDCD](https://via.placeholder.com/15/CDCDCD?text=+) #CDCDCD |
+| Background   | ![#F2F2F2](https://via.placeholder.com/15/F2F2F2?text=+) #F2F2F2 |
+| Button Hover | ![#E6E6E6](https://via.placeholder.com/15/E6E6E6?text=+) #E6E6E6 |
+| Text         | ![#131313](https://via.placeholder.com/15/131313?text=+) #131313 |
+| Screen       | ![#1A1A1A](https://via.placeholder.com/15/1A1A1A?text=+) #1A1A1A |
+| Active       | ![#53FF5C](https://via.placeholder.com/15/53FF5C?text=+) #53FF5C |
+| Twitter      | ![#1DA1F2](https://via.placeholder.com/15/1DA1F2?text=+) #1DA1F2 |
+| Whatsapp     | ![#25D366](https://via.placeholder.com/15/25D366?text=+) #25D366 |
+| GitHub       | ![#333333](https://via.placeholder.com/15/333333?text=+) #333333 |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Próximos passos
 
-## Learn More
+- Melhorar a exibição em dispositivos móveis
+- Adicionar uma segunda página de efeitos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Outros projetos
 
-### Code Splitting
+Não sou um exímio programador, mas de vez em quando eu me aventuro a fazer algumas coisas por aí.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Calculadora de IMC](https://github.com/ldequadra/react-bmi)
 
-### Analyzing the Bundle Size
+[Sistema de caixa em Python](https://github.com/ldequadra/checkout)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# instant-faro
+[Calculadora básica em Python](https://github.com/ldequadra/calculator)
