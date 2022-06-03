@@ -101,8 +101,26 @@ button_q.addEventListener("click", function() {
     setTrackTitle(key);
 
 });
+button_q.addEventListener("touchstart", function() {
+    var key = 'q';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
 
 button_w.addEventListener("click", function() {
+    var key = 'w';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
+button_w.addEventListener("touchstart", function() {
     var key = 'w';
     var audio = document.getElementById(key);
 
@@ -121,8 +139,26 @@ button_e.addEventListener("click", function() {
     setTrackTitle(key);
 
 });
+button_e.addEventListener("touchstart", function() {
+    var key = 'e';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
 
 button_r.addEventListener("click", function() {
+    var key = 'r';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
+button_r.addEventListener("touchstart", function() {
     var key = 'r';
     var audio = document.getElementById(key);
 
@@ -141,8 +177,26 @@ button_t.addEventListener("click", function() {
     setTrackTitle(key);
 
 });
+button_t.addEventListener("touchstart", function() {
+    var key = 't';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
 
 button_y.addEventListener("click", function() {
+    var key = 'y';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
+button_y.addEventListener("touchstart", function() {
     var key = 'y';
     var audio = document.getElementById(key);
 
@@ -161,8 +215,26 @@ button_u.addEventListener("click", function() {
     setTrackTitle(key);
 
 });
+button_u.addEventListener("touchstart", function() {
+    var key = 'u';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
 
 button_a.addEventListener("click", function() {
+    var key = 'a';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
+button_a.addEventListener("touchstart", function() {
     var key = 'a';
     var audio = document.getElementById(key);
 
@@ -181,8 +253,26 @@ button_s.addEventListener("click", function() {
     setTrackTitle(key);
 
 });
+button_s.addEventListener("touchstart", function() {
+    var key = 's';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
 
 button_d.addEventListener("click", function() {
+    var key = 'd';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
+button_d.addEventListener("touchstart", function() {
     var key = 'd';
     var audio = document.getElementById(key);
 
@@ -201,8 +291,26 @@ button_f.addEventListener("click", function() {
     setTrackTitle(key);
 
 });
+button_f.addEventListener("touchstart", function() {
+    var key = 'f';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
 
 button_g.addEventListener("click", function() {
+    var key = 'g';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
+button_g.addEventListener("touchstart", function() {
     var key = 'g';
     var audio = document.getElementById(key);
 
@@ -221,8 +329,26 @@ button_h.addEventListener("click", function() {
     setTrackTitle(key);
 
 });
+button_h.addEventListener("touchstart", function() {
+    var key = 'h';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
 
 button_j.addEventListener("click", function() {
+    var key = 'j';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
+button_j.addEventListener("touchstart", function() {
     var key = 'j';
     var audio = document.getElementById(key);
 
@@ -241,8 +367,26 @@ button_z.addEventListener("click", function() {
     setTrackTitle(key);
 
 });
+button_z.addEventListener("touchstart", function() {
+    var key = 'z';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
 
 button_x.addEventListener("click", function() {
+    var key = 'x';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+    
+});
+button_x.addEventListener("touchstart", function() {
     var key = 'x';
     var audio = document.getElementById(key);
 
@@ -261,8 +405,26 @@ button_c.addEventListener("click", function() {
     setTrackTitle(key);
 
 });
+button_c.addEventListener("touchstart", function() {
+    var key = 'c';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
 
 button_v.addEventListener("click", function() {
+    var key = 'v';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
+button_v.addEventListener("touchstart", function() {
     var key = 'v';
     var audio = document.getElementById(key);
 
@@ -281,6 +443,15 @@ button_b.addEventListener("click", function() {
     setTrackTitle(key);
 
 });
+button_b.addEventListener("touchstart", function() {
+    var key = 'b';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
 
 button_n.addEventListener("click", function() {
     var key = 'n';
@@ -291,8 +462,26 @@ button_n.addEventListener("click", function() {
     setTrackTitle(key);
 
 });
+button_n.addEventListener("touchstart", function() {
+    var key = 'n';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
 
 button_m.addEventListener("click", function() {
+    var key = 'm';
+    var audio = document.getElementById(key);
+
+    playFX(audio);
+    setTrackNumber(key);
+    setTrackTitle(key);
+
+});
+button_m.addEventListener("touchstart", function() {
     var key = 'm';
     var audio = document.getElementById(key);
 
